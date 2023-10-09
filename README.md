@@ -1,36 +1,13 @@
 # Home-Credit
 Utilize Pandas and other Python libraries to generate and communicate business insights from a data set.
 
-## Contents:
-- Introduction
-- Data
-- Models and Metrics
-- Methodology
-- Results
-- Conclusions and Recommendations
-- Tables
-
-## Introduction
-According to this [article on default risk](https://www.investopedia.com/terms/d/defaultrisk.asp#:~:text=Default%20risk%20refers%20to%20the,credit%20reports%20and%20credit%20scores), 
-there's some important things to consider in terms of default risks:
-- Default risk refers to how likely borrower won't be able to make their required debt payments to a lender.
-- Check borrowers credit reports and credit scores.
-- The default risk are rated by rating agencies.
-
-Hypothesis: 
-- Borrowers with risky debt to income ratios where they are borrowing more than they can earn. 
-- And those with high default risk will typically pay higher interest rates are more likely to be high risk for loan defaults.
-
-### Problem Statement
-Home Credit is looking for patterns in its data regarding the default risk of consumer loans. Conduct an analysis to surface any notable patterns related to default risk.
-
 ### Deliverables
 A Jupyter Notebook containing:
 - Imported data, including at least two DataFrames and at least one combination of DataFrames via methods such as joining.
 - Functions for cleaning the data set, with explanations for how null values are being handled in each field.
 - At least two visualizations accompanied by textual descriptions of the business insights they communicate.
 
-## Data Analytics Process:
+### Data Analytics Process:
 Frame 
 - Develops well-informed, hypothesis-driven business questions for analysis.
 - Demonstrates ability to iterate and refine business questions based on new insights.
@@ -50,18 +27,47 @@ Analyze
 Interpret
 - Creates appropriate visualizations that support the findings and insights. 
 - Identifies key insights pertaining to the original business question(s).
-- Incorporates results of the analysis to support decisions and recommendations. 
+- Incorporates results of the analysis to support decisions and recommendations.
 
-## Getting Started
+## Contents:
+- Introduction
+- Data
+- Methodology
+- Results
+- Conclusions and Recommendations
+- Tables
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. 
+## Introduction
+Problem Statement
+Home Credit is looking for patterns in its data regarding the default risk of consumer loans. Conduct an analysis to surface any notable patterns related to default risk.
 
-### Prerequisites
+According to this [article on default risk](https://www.investopedia.com/terms/d/defaultrisk.asp#:~:text=Default%20risk%20refers%20to%20the,credit%20reports%20and%20credit%20scores), 
+there's some important things to consider in terms of default risks:
+- Default risk refers to how likely borrowers won't be able to make their required debt payments to a lender.
+- Check borrowers' credit reports and credit scores.
+- The default risks are rated by rating agencies.
 
-Requirements for the software and other tools to build, test and push 
-- [Python](https://www.python.org/)
-- An open-source code editor such as [Jupyter Notebook](https://jupyter.org/)
+Hypothesis: 
+- Borrowers with risky debt-to-income ratios where they are borrowing more than they can earn. 
+- And those with high default risk will typically pay higher interest rates and are more likely to be at high risk for loan defaults.
+
+## Data
+
+Data was obtained from [Kaggle](https://www.kaggle.com), a website that hosts data science competitions and crowdsources social challenges from across the world. This particular dataset was from the [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data) competition.
+
+The selected dataframes consist of ~160 features consisting of binary, ordinal, and categorical responses. The data dictionary from Kaggle is provided in the [Dataset Description](https://www.kaggle.com/competitions/home-credit-default-risk/data) and specific details in the HomeCredit_columns_descriptions.csv file.
+
+## Methodology
+
+1. First, conduct exploratory data analysis and NULLs imputation on the two datasets.
+2. Created a debt-to-income ratio column and a risky borrowers column to identify existing consumers’ spending patterns related to consumer loan default risk.
+3. Then, merge via INNER JOIN to the final dataset for data visualizations via Pandas and Matplotlib.
+
+## Results
+### EDA and Cleaning
+Exploring and Imputing Nulls:
+- Columns such as AMT_annuity, AMT_GOODS_PRICE, CNT_Payment, PRODUCT_COMBINATION, and AMT_CREDIT had NULLS. Due to the importance of these columns for data analysis, I decided to replace the missing values by using the MEAN for all columns, except for AMT_CREDIT. Decided to use the Mode which is 0. 
+
 
 ### Installing
 
