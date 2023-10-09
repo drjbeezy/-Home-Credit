@@ -68,74 +68,31 @@ The selected dataframes consist of ~160 features consisting of binary, ordinal, 
 Exploring and Imputing Nulls:
 - Columns such as AMT_annuity, AMT_GOODS_PRICE, CNT_Payment, PRODUCT_COMBINATION, and AMT_CREDIT had NULLS. Due to the importance of these columns for data analysis, I decided to replace the missing values by using the MEAN for all columns, except for AMT_CREDIT - decided to use the Mode = 0. 
 
-![# Of borrowers With Types of Loans](https://github.com/[username]/[drjbeezy]/blob/main/#Of Borrowers With Types of Loans.jpg?raw=true)
+### Amount Of Borrowers Who Are at Risk for Defaulting on Consumer Loans
+Of the customers who took out Consumer loans, almost 600,000 were able to pay [0] versus the <50,000 (<10%) [1] who couldn't and were at risk of defaulting on their loan (Figure 1).
 
+![Figure 1](https://github.com/drjbeezy/-Home-Credit/blob/main/%23%20Of%20Borrowers%20with%20Types%20of%20Loans.png?raw=true)
 
-### Installing
+### Amount Of High Default Risk Borrowers With High-Interest Rates
+Of the 50,000 who were at risk of defaulting on their loans, ~17,500 accrued high-interest rates due to their inability to pay either the amount and/or on time (Figure 2).
 
-A step-by-step series of examples that tell you how to get a development
-environment running
+![Figure 2](https://github.com/drjbeezy/-Home-Credit/blob/main/%23%20of%20High%20Default%20Risk%20Borrowers%20by%20Interest%20Rate.png?raw=true)
 
-1. Download and open your open-source code editor. 
+### Risky Borrowers and Collateral
+Finally, of all consumers with high interest rates due to their inability to pay either the amount and/or on time, they could use their car and home as collateral, respectively. 20,000+ did not own a car but did own their home and could use it as collateral. 10,000+ could use their car and home as collateral vs. the 10,000 who had neither. ~5000 could use their car as collateral but did not own a home.  (Figure 2).
 
-2. Download John Bacolores_Home_Credit.ipynb file.
+![Figure 3](https://github.com/drjbeezy/-Home-Credit/blob/main/Risky%20Borrowers%20Car%20and%3AOr%20Home%20Ownership%20as%20Collateral.png?raw=true)
 
-3. Upload John Bacolores_Home_Credit.ipynb file.
+### Conclusions and Recommendations
 
-## Running the tests
-
-Run all cells. Awaiting user commands in the final cell of the notebook. 
-
-### Sample Tests
-
-How to add a transaction: Press [a] to add a transaction
-
-    [a] then "Enter"
-
-Input the title of the transaction:
-
-    Check from brother
-
-What is the category:
-
-    income or expense
-
-Enter the amount:
-
-    500
-
-Input the date in mm/dd/yyyy format:
-
-    08/29/2023
-
-Returns to user input: 
-
-    Press [a] to add a transaction, [b] to view the account balance, [v] to view all transactions, or [q] to quit.
-
-## Deployment
-
-N/A - can launch via Jupyter Notebook
-
-### Post-MVP Goals:
-- The program allows you to track multiple accounts
-- The program can analyze profit and loss for a specific month or year
-- The program can provide high-level stats, such as average transaction size
-- The program can track and analyze transactions by specific customers or vendors
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
+As suspected, borrowers with risky debt-to-income ratios are borrowing more than they can earn. Those with high default risk will typically pay higher interest rates and are more likely to be at high risk for loan defaults. They can use their car and house as collateral, but the majority of high risk borrowers can typically use their own as collateral since most don't own a car. 
 
 ## Authors
 
-- **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
+- **Lavanya Acharya** - *Referenced Modeling Flu Survey Data* -
+    [LAcharya](https://github.com/LAcharya/Modeling-Flu-Survey-Data)
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code is used
 - **Paula Bannerman** - *Provided guidance and oversight* - [dcartist](https://github.com/dcartist)
 - **Andrew Riddle** - *Provided guidance and oversight* - [ajriddle](https://github.com/ajriddle)
