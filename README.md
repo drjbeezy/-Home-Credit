@@ -55,7 +55,7 @@ Hypothesis:
 
 Data was obtained from [Kaggle](https://www.kaggle.com), a website that hosts data science competitions and crowdsources social challenges from across the world. This particular dataset was from the [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data) competition.
 
-The selected dataframes consist of ~160 features consisting of binary, ordinal, and categorical responses. The data dictionary from Kaggle is provided in the [Dataset Description](https://www.kaggle.com/competitions/home-credit-default-risk/data) and specific details in the HomeCredit_columns_descriptions.csv file.
+The selected dataframes consist of 1.3 mil instances and ~160 features consisting of binary, ordinal, and categorical responses. The data dictionary from Kaggle is provided in the [Dataset Description](https://www.kaggle.com/competitions/home-credit-default-risk/data) and specific details in the HomeCredit_columns_descriptions.csv file.
 
 ## Methodology
 
