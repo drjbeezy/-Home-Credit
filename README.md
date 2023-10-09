@@ -10,6 +10,17 @@ Utilize Pandas and other Python libraries to generate and communicate business i
 - Conclusions and Recommendations
 - Tables
 
+## Introduction
+According to this [article on default risk](https://www.investopedia.com/terms/d/defaultrisk.asp#:~:text=Default%20risk%20refers%20to%20the,credit%20reports%20and%20credit%20scores), 
+there's some important things to consider in terms of default risks:
+- Default risk refers to how likely borrower won't be able to make their required debt payments to a lender.
+- Check borrowers credit reports and credit scores.
+- The default risk are rated by rating agencies.
+
+Hypothesis: 
+- Borrowers with risky debt to income ratios where they are borrowing more than they can earn. 
+- And those with high default risk will typically pay higher interest rates are more likely to be high risk for loan defaults.
+
 ### Problem Statement
 Home Credit is looking for patterns in its data regarding the default risk of consumer loans. Conduct an analysis to surface any notable patterns related to default risk.
 
@@ -19,7 +30,7 @@ A Jupyter Notebook containing:
 - Functions for cleaning the data set, with explanations for how null values are being handled in each field.
 - At least two visualizations accompanied by textual descriptions of the business insights they communicate.
 
-## Technical Acceptance Criteria:
+## Data Analytics Process:
 Frame 
 - Develops well-informed, hypothesis-driven business questions for analysis.
 - Demonstrates ability to iterate and refine business questions based on new insights.
