@@ -66,7 +66,7 @@ The selected dataframes consist of ~160 features consisting of binary, ordinal, 
 ## Results
 ### EDA and Cleaning
 Exploring and Imputing Nulls:
-- Columns such as AMT_annuity, AMT_GOODS_PRICE, CNT_Payment, PRODUCT_COMBINATION, and AMT_CREDIT had NULLS. Due to the importance of these columns for data analysis, I decided to replace the missing values by using the MEAN for all columns, except for AMT_CREDIT. Decided to use the Mode which is 0. 
+- Columns such as AMT_annuity, AMT_GOODS_PRICE, CNT_Payment, PRODUCT_COMBINATION, and AMT_CREDIT had NULLS. Due to the importance of these columns for data analysis, I decided to replace the missing values by using the MEAN for all columns, except for AMT_CREDIT - decided to use the Mode = 0. 
 
 
 ### Installing
