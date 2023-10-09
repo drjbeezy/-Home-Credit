@@ -68,6 +68,8 @@ The selected dataframes consist of ~160 features consisting of binary, ordinal, 
 Exploring and Imputing Nulls:
 - Columns such as AMT_annuity, AMT_GOODS_PRICE, CNT_Payment, PRODUCT_COMBINATION, and AMT_CREDIT had NULLS. Due to the importance of these columns for data analysis, I decided to replace the missing values by using the MEAN for all columns, except for AMT_CREDIT - decided to use the Mode = 0. 
 
+![# Of borrowers With Types of Loans](https://github.com/[username]/[drjbeezy]/blob/main/#Of Borrowers With Types of Loans.jpg?raw=true)
+
 
 ### Installing
 
